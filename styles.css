@@ -1,0 +1,39 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap'); */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #202020;
+} */
+
+.sec {
+    position: relative;
+    background: #111;
+    min-height: 100vh;
+    overflow: hidden;
+}
+/*Icono de font awesome*/
+.star {
+    position: absolute;
+    color: #222;
+}
+.star::before{
+    content: '\f111';
+    /* content: '\f005'; */
+    font-family: fontAwesome;
+}
+.star.animate {
+    color: #0f0;
+    text-shadow: 0 0 5px #0f0, 
+    0 0 20px #0f0,
+    0 0 50px #0f0 ;
+}
